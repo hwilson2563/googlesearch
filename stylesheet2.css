@@ -1,0 +1,102 @@
+#google {
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#speaker {
+	height: 20px;
+	}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fafafa;	
+	width: 100%;
+	padding: 20px;
+	margin-top: -10px;
+	margin-left: -10px;
+
+}
+input {
+	border: none;
+	height: 20px;
+	width: 90%;
+}
+.inputandmore {
+	width: 60%;
+	min-width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0px;
+	margin-left:-100px;
+	border: solid .5px rgba(158,155,155,.58);
+	-webkit-box-shadow: 3px 2px 1px 0px rgba(158,155,155,0.58);
+	-moz-box-shadow: 3px 2px 1px 0px rgba(158,155,155,0.58);
+	box-shadow: 3px 2px 1px 0px rgba(158,155,155,0.58);
+	padding: 5px;
+	border-radius: 3px;
+	background-color: white;
+}
+.inputandmore:hover {
+	-webkit-box-shadow: 5px 4px 4px 1px rgba(158,155,155,0.58);
+	-moz-box-shadow: 5px 4px 4px 1px rgba(158,155,155,0.58);
+	box-shadow: 5px 4px 4px 1px rgba(158,155,155,0.58);
+
+}
+.inputandmore a {
+	padding: 4px;
+}
+#searchbutton {
+	color: #4285f4;
+	}
+.profilestuff {
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+}
+.profilestuff a {
+	padding: 4px;
+	color: #777;
+}
+.secondnavbar {
+	margin-left: -10px;
+	width: 110%;
+	background-color: #fafafa;
+	height: 40px; 
+	display: flex;
+	justify-content: center;
+	border-bottom: solid .5px rgba(158,155,155,.58);
+}
+a {
+	text-decoration: none;
+	color: #777;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	padding: 10px;
+}
+a:hover {
+	color: black;
+}
+.secondnavbardiv {
+	width: 60%;
+	margin-left: -50px;
+	display: grid;
+ 	grid-template-rows: 100%;
+ 	grid-template-columns: 80% 20%;
+}
+.one {
+	display: flex;
+	align-items: center;
+}
+.two {
+	display: flex;
+	align-items: center;
+}
+#all {
+	color: #4285f4;
+	font-weight: 700;
+	border-bottom: solid;
+}
+
+
